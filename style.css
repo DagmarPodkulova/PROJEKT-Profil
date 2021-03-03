@@ -4,16 +4,71 @@ html { box-sizing: border-box; }
 
 /*
 	BARVY
-	czechitas  #b92e81
+	czechitas  #b92e81 pouzito
 	pozadi     #bdc3c7
 	tmava      #31363b
 	delitka    #3f464d
-	portfolio  #e74c3c
-	facebook   #3b5998
-	twitter    #1da1f2
+	portfolio  #e74c3c pozito
+	facebook   #3b5998 pouzito
+	twitter    #1da1f2 pouzit
 */
 
 
 body {
 	background-color: #bdc3c7;
+	
+}
+
+.profil{
+	width: 250px;
+	background-color:  #31363b;
+	color: white;
+	padding: 20px;
+	position: relative
+}
+
+.foto{
+	width: 250px;
+	
+}
+
+.logo{
+    border-radius: 50%;
+    float: right;
+    background-color: #b92e81;
+}
+
+.odkazy{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+
+.odkaz li{
+	display: inline-block;
+}
+
+.odkazy a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+
+
+.portfolio:hover{
+	background-color: #e74c3c;
+	
+}
+
+.facebook:hover{
+	background-color: #3b5998;
+}
+
+.twitter:hover{
+	background-color: #1da1f2;
 }
